@@ -1,0 +1,80 @@
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Build output
+/out/
+build/
+target/
+
+# Gradle
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+gradle-app.setting
+gradle-app.properties
+**/gradle-app.setting
+**/gradle-app.properties
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java build artifacts
+*.class
+*.jar
+*.war
+*.ear
+
+# Virtual machine crash logs
+hs_err_pid*
+replay_pid*
+
+# Maven
+log/
+*.mvn/
+.mvn/
+!**/src/main/**/application.properties
+!**/src/main/**/application.yml
+!**/src/main/**/application.yaml
+
+# Environment files
+.env
+.env.*
+
+# User-specific files
+*.swp
+*.swo
+
+# VSCode (caso alguém use)
+.vscode/
+
+# Other packaging formats
+*.zip
+*.tar.gz
+*.rar
+
+# Node (caso tenha front integrado)
+node_modules/
+
+# Application config (ignora apenas se estiver fora do src)
+application.properties
+application.yml
+application.yaml
+
+# Cache / generated files
+*.class
+*.jar
+*.war
+*.ear
+*.db
+*.sqlite
+*.h2.db
+
+# Ignore local dev/test DBs
+*.mv.db
+*.trace.db
